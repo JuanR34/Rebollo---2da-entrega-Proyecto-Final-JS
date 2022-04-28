@@ -54,13 +54,6 @@ function renderCarrito () {
     addLocalStorage ()
 }
 
-function multi () {
-     const total = document.getElementsByClassName ("itemCartTotal");
-    total.innerHTML = precio * 1;
-    return total
-}
-
-
 function addLocalStorage () {
     localStorage.setItem (`carrito`, JSON.stringify (carrito))
 }
